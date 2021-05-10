@@ -15,5 +15,6 @@ rl.question("What is your first number? ", function(number1) {
 
 rl.on("close", function() {
     console.log("\napp over!!!");
+    console.log("you are done!!");
     process.exit(0);
 });
